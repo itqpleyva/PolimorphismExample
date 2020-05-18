@@ -37,4 +37,6 @@ public class LoadData implements ApplicationListener<ContextRefreshedEvent> {
 }
 
 <p>In the way the model classes are defined, a class structure is created in the DB as follows</p>
-<img src="data.png"/>
+<p>The ANIMAL table is generated, green rectangle for the parent class attributes, black rectangle for Cat child class attributes and blue rectangle for Dog child class attributes</p>
+<br>
+<img src="data2.png"/>
