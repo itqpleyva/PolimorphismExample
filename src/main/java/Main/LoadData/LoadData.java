@@ -32,11 +32,11 @@ public class LoadData implements ApplicationListener<ContextRefreshedEvent> {
 		Dog dog = new Dog();
 		dog.setName("negrito");	
 		animalRepo.saveAll(Arrays.asList(dog));
-		
+		dog.sound();
 		Cat cat1 = new Cat();
 		cat1.setName("Pelusa");	
 		animalRepo.saveAll(Arrays.asList(cat1));
-		
+		cat1.sound();
 		@SuppressWarnings("unchecked")
 		List<Dog> doggie =  em.createNamedQuery("Animal.findByName")
                 .setParameter("name", "negrito").getResultList();

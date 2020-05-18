@@ -6,6 +6,13 @@ import javax.persistence.Entity;
 @Entity
 public class Cat extends Animal {
 
+	@Override
+	public void sound() {
+		// TODO Auto-generated method stub
+		System.out.println("I am a Cat");
+	}
+
+
 	private String eyes_color;
 
 	

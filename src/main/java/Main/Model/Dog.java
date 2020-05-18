@@ -16,6 +16,11 @@ public class Dog extends Animal {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	@Override
+	public void sound() {
+		// TODO Auto-generated method stub
+		System.out.println("I am a Dog");
+	}
 	public Integer getRaza() {
 		return raza;
 	}

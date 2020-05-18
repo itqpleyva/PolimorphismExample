@@ -24,6 +24,10 @@ public class Animal {
 		// TODO Auto-generated constructor stub
 	}
 
+	public void sound() {
+		
+		System.out.println("I am an animal");
+	}
 	public String getSpecie() {
 		return specie;
 	}
